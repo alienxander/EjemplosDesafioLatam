@@ -1,6 +1,6 @@
 from sys import argv
 
-
+['nombreprograma.py', 'param1', 'param2', 'paramn']
 #print(argv)
 # numero = int(input("Ingrese un número: "))
 

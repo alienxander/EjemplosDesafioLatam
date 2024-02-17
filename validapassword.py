@@ -1,7 +1,15 @@
 from sys import argv
 #import getpass
 from getpass import getpass
+from platform import system as syspl
+from os import system as sysos
 #print(argv)
+print('2'.isnumeric())
+print('2 3'.isnumeric())
+print('2'.isdigit())
+print('2 3 4'.isdigit())
+print(syspl())
+##sysos("cls")
 password2 = getpass("Ingrese una  password: ")
 
 print(password2)
